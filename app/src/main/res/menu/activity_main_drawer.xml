@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_my_page"
+            android:title="صفحتي"
+            android:icon="@mipmap/ic_my_page"
+             />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings"
+            android:title="الاعدادات" />
+        <item
+            android:id="@+id/nav_my_ad"
+            android:icon="@mipmap/ic_my_ad"
+            android:title="اعلاناتى" />
+        <item
+            android:id="@+id/nav_my_alert"
+            android:icon="@mipmap/ic_my_alert"
+            android:title="تنبيهاتى" />
+
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@mipmap/ic_message"
+            android:title="رسائل" />
+    </group>
+
+
+
+
+</menu>
